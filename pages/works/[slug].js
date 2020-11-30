@@ -76,8 +76,6 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  console.log("paramssss");
-  console.log(params);
   const work = works.find((work) => work.slug === params.slug);
 
   return {

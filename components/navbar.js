@@ -17,9 +17,6 @@ export default function Navbar() {
     }
   }, []);
 
-  console.log("isTopppp");
-  console.log(isTop);
-
   const menus = [
     {
       path: "/",
